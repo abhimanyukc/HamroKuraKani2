@@ -36,7 +36,7 @@ public class ChatActivity extends AppCompatActivity {
 
     String ReciverImage,ReciverUID,ReciverName,SenderUID;
     CircleImageView profileImage;
-    TextView reciverName;
+    TextView recivername;
     FirebaseDatabase database;
     FirebaseAuth firebaseAuth;
     public static String sImage;
@@ -67,7 +67,7 @@ public class ChatActivity extends AppCompatActivity {
         messagesArrayList = new ArrayList<>();
 
         profileImage=findViewById(R.id.profile_image);
-        reciverName = findViewById(R.id.receiverName);
+        recivername = findViewById(R.id.receiverName);
 
         messageAdater = findViewById(R.id.messageAdater);
         //making linearlayoutmanager
@@ -83,7 +83,7 @@ public class ChatActivity extends AppCompatActivity {
         edtMessage = findViewById(R.id.edtMessage);
 
         Picasso.get().load(ReciverImage).into(profileImage);
-        reciverName.setText(""+ReciverName);
+        recivername.setText(""+ReciverName);
 
         SenderUID = firebaseAuth.getUid();
 
