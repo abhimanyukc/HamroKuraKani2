@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "156082791675",
+    "project_id": "hamrokurakani-1fa49",
+    "storage_bucket": "hamrokurakani-1fa49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156082791675:android:5bde31b3027aacbbb7bc5e",
+        "android_client_info": {
+          "package_name": "com.example.hamrokurakani"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156082791675-4da2qcrj57n33m8396glnbpv97hn9v6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkRQrwK-X_p2L-ncph6zyL620D4JKvIAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156082791675-4da2qcrj57n33m8396glnbpv97hn9v6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
